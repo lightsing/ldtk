@@ -41,6 +41,22 @@ class EditAppSettings extends ui.modal.Dialog {
 		});
 		jContent.find( "button.locateLog").click( (_)->JsTools.locateFile( JsTools.getLogPath(), true ) );
 
+		// Language selector
+		var jLang = jForm.find("#language");
+		jLang.empty();
+		for(lang in Lang.SUPPORTED_LANGUAGES) {
+			var jOpt = new J('<option value="${lang.code}"/>');
+			jLang.append(jOpt);
+			jOpt.text(lang.name);
+			if( lang.code==Lang.CUR )
+				jOpt.prop("selected",true);
+		}
+		jLang.change( (_)->{
+			settings.v.language = jLang.val();
+			onSettingChanged();
+			needRestart = true;
+		});
+
 		// World mode using mousewheel
 		var i = new form.input.EnumSelect(
 			jForm.find("#autoSwitchOnZoom"),

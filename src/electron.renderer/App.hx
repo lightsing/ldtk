@@ -136,6 +136,7 @@ class App extends dn.Process {
 
 		// Restore settings
 		loadSettings();
+		Lang.init(settings.v.language);
 		settings.save();
 		LOG.add("BOOT","AppZoomFactor: "+settings.getAppZoomFactor());
 

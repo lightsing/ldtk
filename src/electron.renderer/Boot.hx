@@ -13,7 +13,6 @@ class Boot extends hxd.App {
 		hxd.Timer.smoothFactor = 0;
 
 		Assets.init();
-		Lang.init();
 
 		new App();
 	}

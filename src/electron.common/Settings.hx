@@ -18,6 +18,7 @@ typedef AppSettings = {
 	var colorBlind : Bool;
 	var blurMask : Bool;
 	var navigationKeys : NavigationKeys;
+	var language : Null<String>;
 
 	var openLastProject : Bool;
 	var lastProject : Null<{ filePath:String, levelUid:Int }>;
@@ -100,6 +101,7 @@ class Settings {
 			colorBlind: false,
 			blurMask: true,
 			navigationKeys: null,
+			language: null,
 
 			singleLayerMode: false,
 			singleLayerModeIntensity: 0.75,

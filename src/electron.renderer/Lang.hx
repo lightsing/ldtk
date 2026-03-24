@@ -18,6 +18,11 @@ class Lang {
 	public static var CUR = "??";
 	public static var t : GetText;
 
+	// Supported languages: {code => display name}
+	public static var SUPPORTED_LANGUAGES : Array<{ code:String, name:String }> = [
+		{ code: "en", name: "English" },
+		{ code: "zh", name: "简体中文" },
+	];
 
 	public static function init(?lid:String) {
 		if( _initDone )
