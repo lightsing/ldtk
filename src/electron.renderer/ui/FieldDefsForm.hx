@@ -25,10 +25,75 @@ class FieldDefsForm {
 		this.fieldDefs = [];
 
 		jWrapper = new J('<div class="fieldDefsForm"/>');
-		jWrapper.html( JsTools.getHtmlTemplate("fieldDefsForm", { parentType: switch parentType {
+		var parentTypeName = switch parentType {
 			case FP_Entity(_): "Entity";
 			case FP_Level(_): "Level";
-		}}) );
+		};
+		jWrapper.html( JsTools.getHtmlTemplate("fieldDefsForm", {
+			parentType: parentTypeName,
+			createSingleBtn: L.t._("+ single value"),
+			createArrayBtn: L.t._("+ array"),
+			generalSettingsHeader: L.t._("General settings"),
+			typeLabel: L.t._("Type"),
+			typeInfo: L.t._("This is the type of data stored in this custom field (number, text etc.)"),
+			convertBtn: L.t._("Convert"),
+			fieldIdentifierLabel: L.t._("Field identifier"),
+			documentationLabel: L.t._("Documentation"),
+			exportToTocLabel: L.t._("Export to ToC"),
+			exportToTocInfo: L.t._("If the parent Entity has its \"Add to JSON Table-of-Content\" enabled, you may also export this field value to the JSON."),
+			searchableLabel: L.t._("Searchable"),
+			searchableInfo: L.t._("If enabled, this field will be searchable throught the app command palette (when pressing CTRL-K)."),
+			valueSpecsHeader: L.t._("Value specifications"),
+			defaultValueLabel: L.t._("Default value"),
+			defaultNumberInfo: L.t._("This is the default number value for this field, unless overridden with something else."),
+			defaultTextInfo: L.t._("This is the default text for this field, unless modified manually."),
+			defaultEnumInfo: L.t._("This is the default enum value for this field, unless modified manually."),
+			defaultStateLabel: L.t._("Default state"),
+			defaultStateInfo: L.t._("This is the default checkbox state for this field, unless modified manually."),
+			defaultColorLabel: L.t._("Default color"),
+			defaultColorInfo: L.t._("This is the default color for this field, unless modified manually."),
+			limitsLabel: L.t._("Limits"),
+			limitsInfo: L.t._("You can define a min and/or max limit of this number."),
+			toLabel: L.t._("to"),
+			fileExtensionsLabel: L.t._("File extensions"),
+			fileExtensionsInfo: L.t._("Enter a list of accepted extensions, separated by a space, case insensitive. For example: \"txt dat png jpg gif\". This filter won't prevent user from picking another file, it's just a display limitation.\n\t\t\tIf empty, all extensions will be accepted."),
+			regexCheckLabel: L.t._("Regex check"),
+			regexCheckInfo: L.t._("You can enter a Regular Expression here to check the values entered for this field.\n\t\t\tAny character that doesn't match the RegEx will be discarded.\n\t\t\tWARNING: existing values in your levels will NOT be affected by any change here!"),
+			testBtn: L.t._("Test"),
+			languageLabel: L.t._("Language"),
+			canContainNullsLabel: L.t._("Can contain nulls"),
+			canBeNullLabel: L.t._("Can be null"),
+			canContainNullsInfo: L.t._("If enabled, it will be possible to have \"null\" values inside this array.\n\t\t\tIf disabled, the array values will use the \"default\" if unspecified."),
+			canBeNullInfo: L.t._("If enabled, it will be possible to have no value at all for this field (ie. \"null\").\n\t\t\tIf disabled, the value will be the \"default\" one if nothing is entered."),
+			isOptionalLabel: L.t._("Is optional"),
+			isOptionalInfo: L.t._("If enabled, it will be possible to have no value at all for this field (ie. \"null\").\n\t\t\tIf disabled, the value will become mandatory and an error message will show up if the value is unspecified."),
+			tilesetLabel: L.t._("Tileset"),
+			defaultTileLabel: L.t._("Default:"),
+			referenceOptionsLabel: L.t._("Reference options"),
+			symmetricalLabel: L.t._("symmetrical"),
+			inAnyLevelLabel: L.t._("in any level"),
+			autoChainLabel: L.t._("auto-chain"),
+			allowedReferencesLabel: L.t._("Allowed references"),
+			allowedReferencesInfo: L.t._("Define which kind of entity is allowed to be picked for this value."),
+			arrayLengthLabel: L.t._("Array length"),
+			arrayLengthInfo: L.t._("Constraints to the array size (ie. min length and/or max length)"),
+			displayHeader: L.t._("Display"),
+			displayInEditorLabel: L.t._("Display in editor"),
+			displayInEditorInfo: L.t._("Customize how values for this field should be displayed in the editor view.\n\t\t\tA quick recommendation here: don't display too many entity fields or the editor view would become really cluttered."),
+			showInWorldViewLabel: L.t._("Show in world view"),
+			prefixSuffixLabel: L.t._("Prefix/suffix"),
+			prefixSuffixInfo: L.t._("Optional text prefix and suffix to display around the values in the editor view.\n\t\t\tExamples: 0.1 seconds, $17"),
+			alwaysShowLabel: L.t._("Always show"),
+			alwaysShowInfo: L.t._("If checked, the value will always be displayed in editor view, even if it is using default value.\n\t\t\tIf not checked, the value will only show up if it is not the default value.\n\t\t\tOnly applies if any display mode was selected above."),
+			showExcerptLabel: L.t._("Only show an excerpt in editor"),
+			showExcerptInfo: L.t._("If enabled (recommended), long texts will be cut when displayed in the editor view."),
+			overrideColorPre: L.t._("Override"),
+			overrideColorPost: L.t._("color"),
+			overrideColorInfoPre: L.t._("If enabled, this color will override the default"),
+			overrideColorInfoPost: L.t._("color when displayed in the editor view.\n\t\t\tFor arrays, the first valid value of the array will be used."),
+			overrideEnumInfoPre: L.t._("If enabled, the color of the Enum value (if any) will override the default"),
+			overrideEnumInfoPost: L.t._("color when displayed in the editor view.\n\t\t\tFor arrays, the first valid value of the array will be used."),
+		}) );
 
 		// Create single field
 		jButtons.find("button.createSingle").click( function(ev) {

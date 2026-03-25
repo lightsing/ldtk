@@ -1,6 +1,6 @@
 <div class="buttons">
-	<button type="button" class="createSingle" title="Add a field that contains a single value.">+ single value</button>
-	<button type="button" class="createArray" title="Add a field that contains an array of multiple values.">+ array</button>
+	<button type="button" class="createSingle" title="Add a field that contains a single value.">::createSingleBtn::</button>
+	<button type="button" class="createArray" title="Add a field that contains an array of multiple values.">::createArrayBtn::</button>
 </div>
 
 <ul class="niceList fieldList"></ul>
@@ -8,20 +8,20 @@
 
 
 <dl class="form">
-	<dt class="full"> <h3>General settings</h3> </dt>
+	<dt class="full"> <h3>::generalSettingsHeader::</h3> </dt>
 
 	<dt>
-		<label>Type</label>
-		<info>This is the type of data stored in this custom field (number, text etc.)</info>
+		<label>::typeLabel::</label>
+		<info>::typeInfo::</info>
 	</dt>
 	<dd>
 		<input type="text" readonly="readonly" class="type"/>
-		<button class="convert">Convert</button>
+		<button class="convert">::convertBtn::</button>
 	</dd>
 
 
 	<dt>
-		<label for="fName">Field identifier</label>
+		<label for="fName">::fieldIdentifierLabel::</label>
 		<info class="identifier"></info>
 	</dt>
 	<dd>
@@ -30,7 +30,7 @@
 
 
 	<dt>
-		<label for="doc">Documentation</label>
+		<label for="doc">::documentationLabel::</label>
 		<info class="userDoc"></info>
 	</dt>
 	<dd>
@@ -38,27 +38,27 @@
 	</dd>
 
 	<dt class="onlyEntity">
-		<label for="bDef">Export to ToC</label>
-		<info>If the parent Entity has its "Add to JSON Table-of-Content" enabled, you may also export this field value to the JSON.</info>
+		<label for="bDef">::exportToTocLabel::</label>
+		<info>::exportToTocInfo::</info>
 	</dt>
 	<dd>
 		<input type="checkbox" name="exportToToc" id="exportToToc"/>
 	</dd>
 
 	<dt class="onlyEntity F_String F_Enum F_Text">
-		<label for="bDef">Searchable</label>
-		<info>If enabled, this field will be searchable throught the app command palette (when pressing CTRL-K).</info>
+		<label for="bDef">::searchableLabel::</label>
+		<info>::searchableInfo::</info>
 	</dt>
 	<dd>
 		<input type="checkbox" name="searchable" id="searchable"/>
 	</dd>
 
 
-	<dt class="full"> <h3>Value specifications</h3> </dt>
+	<dt class="full"> <h3>::valueSpecsHeader::</h3> </dt>
 
 	<dt class="F_Int F_Float">
-		<label for="fDef">Default value</label>
-		<info>This is the default number value for this field, unless overridden with something else.</info>
+		<label for="fDef">::defaultValueLabel::</label>
+		<info>::defaultNumberInfo::</info>
 	</dt>
 	<dd>
 		<input type="text" name="fDef" placeholder="" id="fDef"/>
@@ -66,8 +66,8 @@
 
 
 	<dt class="F_Text F_String">
-		<label for="fDefMultiLines">Default value</label>
-		<info>This is the default text for this field, unless modified manually.</info>
+		<label for="fDefMultiLines">::defaultValueLabel::</label>
+		<info>::defaultTextInfo::</info>
 	</dt>
 	<dd>
 		<div class="multiLines" id="fDefMultiLines"></div>
@@ -76,8 +76,8 @@
 
 
 	<dt class="F_Enum">
-		<label for="enumDef">Default value</label>
-		<info>This is the default enum value for this field, unless modified manually.</info>
+		<label for="enumDef">::defaultValueLabel::</label>
+		<info>::defaultEnumInfo::</info>
 	</dt>
 	<dd>
 		<select id="enumDef" name="enumDef"></select>
@@ -85,8 +85,8 @@
 
 
 	<dt class="F_Bool">
-		<label for="bDef">Default state</label>
-		<info>This is the default checkbox state for this field, unless modified manually.</info>
+		<label for="bDef">::defaultStateLabel::</label>
+		<info>::defaultStateInfo::</info>
 	</dt>
 	<dd>
 		<input type="checkbox" name="bDef" id="bDef"/>
@@ -94,8 +94,8 @@
 
 
 	<dt class="F_Color">
-		<label for="cDef">Default color</label>
-		<info>This is the default color for this field, unless modified manually.</info>
+		<label for="cDef">::defaultColorLabel::</label>
+		<info>::defaultColorInfo::</info>
 	</dt>
 	<dd>
 		<input type="color" name="cDef" id="cDef"/>
@@ -103,22 +103,19 @@
 
 
 	<dt class="F_Int F_Float">
-		<label for="min">Limits</label>
-		<info>You can define a min and/or max limit of this number.</info>
+		<label for="min">::limitsLabel::</label>
+		<info>::limitsInfo::</info>
 	</dt>
 	<dd>
 		<input type="text" name="min" id="min" placeholder="Min" title="Value should be GREATER than or EQUAL to this."/>
-		<span>to</span>
+		<span>::toLabel::</span>
 		<input type="text" name="max" id="max" placeholder="Max" title="Value should be LOWER than or EQUAL to this."/>
 	</dd>
 
 
 	<dt class="F_Path">
-		<label for="acceptTypes">File extensions</label>
-		<info>
-			Enter a list of accepted extensions, separated by a space, case insensitive. For example: "txt dat png jpg gif". This filter won't prevent user from picking another file, it's just a display limitation.
-			If empty, all extensions will be accepted.
-		</info>
+		<label for="acceptTypes">::fileExtensionsLabel::</label>
+		<info>::fileExtensionsInfo::</info>
 	</dt>
 	<dd>
 		<input type="text" name="acceptTypes" id="acceptTypes" placeholder="Any file"/>
@@ -126,22 +123,18 @@
 
 
 	<dt class="F_String">
-		<label for="regex">Regex check</label>
-		<info>
-			You can enter a Regular Expression here to check the values entered for this field.
-			Any character that doesn't match the RegEx will be discarded.
-			WARNING: existing values in your levels will NOT be affected by any change here!
-		</info>
+		<label for="regex">::regexCheckLabel::</label>
+		<info>::regexCheckInfo::</info>
 	</dt>
 	<dd>
 		<input type="text" id="regex" placeholder="(none)"/>
 		<input type="checkbox" id="flag_i" title='Check to enable "i" flag (case insensitive)'/> <span>i</span>
-		<button class="testRegex small gray" title="Open external website to test your regex">Test</button>
+		<button class="testRegex small gray" title="Open external website to test your regex">::testBtn::</button>
 	</dd>
 
 
 	<dt class="F_Text">
-		<label for="textLanguage">Language</label>
+		<label for="textLanguage">::languageLabel::</label>
 		<div class="info" title="This option will ONLY affect how your text will be displayed in the editor (ie. syntax coloring)."></div>
 	</dt>
 	<dd>
@@ -150,18 +143,12 @@
 
 
 	<dt class="F_Enum F_Int F_Float F_String F_Text">
-		<label for="canBeNull" class="Array">Can contain nulls</label>
-		<label for="canBeNull" class="NotArray">Can be null</label>
+		<label for="canBeNull" class="Array">::canContainNullsLabel::</label>
+		<label for="canBeNull" class="NotArray">::canBeNullLabel::</label>
 
-		<info class="Array">
-			If enabled, it will be possible to have "null" values inside this array.
-			If disabled, the array values will use the "default" if unspecified.
-		</info>
+		<info class="Array">::canContainNullsInfo::</info>
 
-		<info class="NotArray">
-			If enabled, it will be possible to have no value at all for this field (ie. "null").
-			If disabled, the value will be the "default" one if nothing is entered.
-		</info>
+		<info class="NotArray">::canBeNullInfo::</info>
 	</dt>
 	<dd>
 		<input type="checkbox" name="canBeNull"/>
@@ -169,18 +156,12 @@
 
 
 	<dt class="F_Path F_Point F_EntityRef F_Tile">
-		<label for="canBeNull" class="Array">Can contain nulls</label>
-		<label for="canBeNull" class="NotArray">Is optional</label>
+		<label for="canBeNull" class="Array">::canContainNullsLabel::</label>
+		<label for="canBeNull" class="NotArray">::isOptionalLabel::</label>
 
-		<info class="Array">
-			If enabled, it will be possible to have "null" values inside this array.
-			If disabled, the array values will use the "default" if unspecified.
-		</info>
+		<info class="Array">::canContainNullsInfo::</info>
 
-		<info class="NotArray">
-			If enabled, it will be possible to have no value at all for this field (ie. "null").
-			If disabled, the value will become mandatory and an error message will show up if the value is unspecified.
-		</info>
+		<info class="NotArray">::isOptionalInfo::</info>
 	</dt>
 	<dd>
 		<input type="checkbox" name="canBeNull"/>
@@ -188,12 +169,12 @@
 
 
 	<dt class="F_Tile">
-		<label for="tilesetUid">Tileset</label>
+		<label for="tilesetUid">::tilesetLabel::</label>
 	</dt>
 	<dd class="tile">
 		<select id="tilesetUid"></select>
 		<div class="defaultTile">
-			<span>Default: </span>
+			<span>::defaultTileLabel:: </span>
 			<div class="picker"></div>
 			<button class="clear gray"> <span class="icon clear"></span> </button>
 		</div>
@@ -201,29 +182,29 @@
 
 
 	<dt class="F_EntityRef">
-		<label>Reference options</label>
+		<label>::referenceOptionsLabel::</label>
 	</dt>
 	<dd>
 		<label for="symmetricalRef">
 			<input type="checkbox" name="symmetricalRef" id="symmetricalRef" title="If enabled and you pick a target for this value, a symmetrical reference will be set on the target.\nThis only works if the target Entity is of the same type as this one."/>
-			symmetrical
+			::symmetricalLabel::
 		</label>
 
 		<label for="allowOutOfLevelRef">
 			<input type="checkbox" name="allowOutOfLevelRef" id="allowOutOfLevelRef" title="If enabled, it will be possible to pick an Entity from a different level."/>
-			in any level
+			::inAnyLevelLabel::
 		</label>
 
 		<label for="autoChainRef">
 			<input type="checkbox" name="autoChainRef" id="autoChainRef" title="If enabled, if you place a compatible Entity right after placing this one, this field will automatically reference the newly added Entity."/>
-			auto-chain
+			::autoChainLabel::
 		</label>
 	</dd>
 
 
 	<dt class="F_EntityRef">
-		<label>Allowed references</label>
-		<info>Define which kind of entity is allowed to be picked for this value.</info>
+		<label>::allowedReferencesLabel::</label>
+		<info>::allowedReferencesInfo::</info>
 	</dt>
 	<dd>
 		<select name="allowedRefs" id="allowedRefs" class="full"></select>
@@ -233,23 +214,20 @@
 
 
 	<dt class="Array">
-		<label for="arrayMinLength">Array length</label>
-		<info>Constraints to the array size (ie. min length and/or max length)</info>
+		<label for="arrayMinLength">::arrayLengthLabel::</label>
+		<info>::arrayLengthInfo::</info>
 	</dt>
 	<dd>
 		<input type="text" name="arrayMinLength" id="arrayMinLength" placeholder="min length" title="Min array length"/>
-		<span>to</span>
+		<span>::toLabel::</span>
 		<input type="text" name="arrayMaxLength" id="arrayMaxLength" placeholder="max length" title="Max array length"/>
 	</dd>
 
-	<dt class="full"> <h3>Display</h3> </dt>
+	<dt class="full"> <h3>::displayHeader::</h3> </dt>
 
 	<dt>
-		<label for="editorDisplayMode">Display in editor</label>
-		<info>
-			Customize how values for this field should be displayed in the editor view.
-			A quick recommendation here: don't display too many entity fields or the editor view would become really cluttered.
-		</info>
+		<label for="editorDisplayMode">::displayInEditorLabel::</label>
+		<info>::displayInEditorInfo::</info>
 	</dt>
 	<dd class="displayMode">
 		<select name="editorDisplayMode" id="editorDisplayMode"></select>
@@ -257,7 +235,7 @@
 		<select name="editorLinkStyle" id="editorLinkStyle"></select>
 		<label for="editorShowInWorld">
 			<input type="checkbox" name="editorShowInWorld" id="editorShowInWorld" title="If enabled, the value will be displayed in the World view, as well as near the current level."/>
-			Show in world view
+			::showInWorldViewLabel::
 		</label>
 		<input type="text" id="editorDisplayScale" title="Display scale"/>
 		<div id="editorDisplayColor" title="Display color"></div>
@@ -265,11 +243,8 @@
 
 
 	<dt class="F_Int F_Float">
-		<label for="editorTextPrefix">Prefix/suffix</label>
-		<info>
-			Optional text prefix and suffix to display around the values in the editor view.
-			Examples: 0.1 seconds, $17
-		</info>
+		<label for="editorTextPrefix">::prefixSuffixLabel::</label>
+		<info>::prefixSuffixInfo::</info>
 	</dt>
 	<dd>
 		<input type="text" name="editorTextPrefix" id="editorTextPrefix"/>
@@ -279,12 +254,8 @@
 
 
 	<dt>
-		<label for="editorAlwaysShow">Always show</label>
-		<info>
-			If checked, the value will always be displayed in editor view, even if it is using default value.
-			If not checked, the value will only show up if it is not the default value.
-			Only applies if any display mode was selected above.
-		</info>
+		<label for="editorAlwaysShow">::alwaysShowLabel::</label>
+		<info>::alwaysShowInfo::</info>
 	</dt>
 	<dd>
 		<input type="checkbox" name="editorAlwaysShow" id="editorAlwaysShow"/>
@@ -292,8 +263,8 @@
 
 
 	<dt class="F_String F_Text">
-		<label for="editorCutLongValues">Only show an excerpt in editor</label>
-		<info>If enabled (recommended), long texts will be cut when displayed in the editor view.</info>
+		<label for="editorCutLongValues">::showExcerptLabel::</label>
+		<info>::showExcerptInfo::</info>
 	</dt>
 	<dd>
 		<input type="checkbox" id="editorCutLongValues"/>
@@ -301,15 +272,9 @@
 
 
 	<dt class="F_Color F_Enum">
-		<label for="bDef">Override ::parentType:: color</label>
-		<info class="F_Color">
-			If enabled, this color will override the default ::parentType:: color when displayed in the editor view.
-			For arrays, the first valid value of the array will be used.
-		</info>
-		<info class="F_Enum">
-			If enabled, the color of the Enum value (if any) will override the default ::parentType:: color when displayed in the editor view.
-			For arrays, the first valid value of the array will be used.
-		</info>
+		<label for="bDef">::overrideColorPre:: ::parentType:: ::overrideColorPost::</label>
+		<info class="F_Color">::overrideColorInfoPre:: ::parentType:: ::overrideColorInfoPost::</info>
+		<info class="F_Enum">::overrideEnumInfoPre:: ::parentType:: ::overrideEnumInfoPost::</info>
 	</dt>
 	<dd>
 		<input type="checkbox" name="useForSmartColor" id="useForSmartColor"/>
