@@ -7,7 +7,20 @@ class EditEnumDefs extends ui.modal.Panel {
 	public function new() {
 		super();
 
-		loadTemplate("editEnumDefs");
+		loadTemplate("editEnumDefs", {
+			projectEnumsTitle: L.t._("Project Enums"),
+			importBtn: L.t._("Import"),
+			enumsHelpText: L.t._("Enumerations (Enums) are list of values. Examples: your enemy types, items, states etc."),
+			sourceFileLabel: L.t._("Source file"),
+			sourceFileInfo: L.t._("This Enum was imported from an external file and can be kept in-sync with it."),
+			enumIdentifierLabel: L.t._("Enum identifier"),
+			iconTilesetLabel: L.t._("Icon tileset"),
+			iconTilesetInfo: L.t._("You can link an existing Tileset to this Enum to associate icons to each enum values."),
+			tagsLabel: L.t._("Tags"),
+			tagsInfo: L.t._("Tags are used to freely organize your Enums."),
+			allValuesTitle: L.t._("All possible enum values"),
+			addValueBtn: L.t._("Add a new value"),
+		});
 		linkToButton("button.editEnums");
 
 		// Add enum

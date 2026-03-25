@@ -1,27 +1,26 @@
 <h2>
 	<div class="icon enum"></div>
-	Project Enums
+	::projectEnumsTitle::
 </h2>
 
 <div class="enumList">
 	<div class="buttons">
 		<button class="createEnum"> <span class="icon add"></span> </button>
-		<button class="import small">Import</button>
+		<button class="import small">::importBtn::</button>
 	</div>
 	<div class="search"></div>
 	<ul class="niceList"></ul>
 </div>
 
 <div class="help none">
-	Enumerations (Enums) are list of values.
-	Examples: your enemy types, items, states etc.
+	::enumsHelpText::
 </div>
 
 <div class="enumFormWrapper">
 	<dl class="form enumForm">
 		<dt class="onlyExternal">
-			<label>Source file</label>
-			<info>This Enum was imported from an external file and can be kept in-sync with it.</info>
+			<label>::sourceFileLabel::</label>
+			<info>::sourceFileInfo::</info>
 		</dt>
 
 		<dd class="source">
@@ -29,7 +28,7 @@
 
 
 		<dt>
-			<label for="id">Enum identifier</label>
+			<label for="id">::enumIdentifierLabel::</label>
 			<div class="info identifier"></div>
 		</dt>
 		<dd>
@@ -38,16 +37,16 @@
 
 
 		<dt>
-			<label for="icons">Icon tileset</label>
-			<div class="info">You can link an existing Tileset to this Enum to associate icons to each enum values.</div>
+			<label for="icons">::iconTilesetLabel::</label>
+			<div class="info">::iconTilesetInfo::</div>
 		</dt>
 		<dd>
 			<select id="icons"></select>
 		</dd>
 
 		<dt class="noExternal">
-			<label for="tags">Tags</label>
-			<div class="info">Tags are used to freely organize your Enums.</div>
+			<label for="tags">::tagsLabel::</label>
+			<div class="info">::tagsInfo::</div>
 		</dt>
 		<dd class="noExternal">
 			<div id="tags"></div>
@@ -56,8 +55,8 @@
 
 
 	<div class="valuesWrapper">
-		<h2>All possible enum values</h2>
-		<button class="createEnumValue noExternal gray">Add a new value</button>
+		<h2>::allValuesTitle::</h2>
+		<button class="createEnumValue noExternal gray">::addValueBtn::</button>
 		<ul class="enumValues"></ul>
 	</div>
 
