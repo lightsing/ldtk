@@ -17,7 +17,48 @@ class EditEntityDefs extends ui.modal.Panel {
 	public function new(?editDef:data.def.EntityDef) {
 		super();
 
-		loadTemplate( "editEntityDefs", "defEditor entityDefs" );
+		loadTemplate( "editEntityDefs", "defEditor entityDefs", {
+			projectEntitiesTitle: L.t._("Project entities"),
+			presetsBtn: L.t._("Presets"),
+			entitiesHelpText: L.t._("ENTITIES are generic data that can be placed in your levels, such as the Player start position or Items to pick up. Each entity can have various custom editable properties as defined below."),
+			entityIdentifierLabel: L.t._("Entity identifier"),
+			showIdentifierLabel: L.t._("Show identifier"),
+			entitySettingsCollapser: L.t._("Entity settings"),
+			miscOptionsLabel: L.t._("Misc options"),
+			addToTocLabel: L.t._("Add to JSON Table-of-content"),
+			canBeOutOfBoundsLabel: L.t._("Can be out of level bounds"),
+			documentationLabel: L.t._("Documentation"),
+			tagsLabel: L.t._("Tags"),
+			tagsInfo: L.t._("Tags are used to group entities in custom categories. Multiple tags can be assigned to a single entity. You may also use tags in Layers settings to filter which entities are allowed and which are not. Example: add an \"Actor\" tag to some entities and create an Entity layer that only accepts \"Actors\" entities in it."),
+			sizeLabel: L.t._("Size"),
+			sizeInfo: L.t._("Default width and height (in pixels) of this entity."),
+			minLabel: L.t._("Min:"),
+			maxLabel: L.t._("Max:"),
+			resizableLabel: L.t._("Resizable:"),
+			widthLabel: L.t._("Width"),
+			heightLabel: L.t._("Height"),
+			keepAspectRatioLabel: L.t._("Keep aspect ratio"),
+			editorVisualLabel: L.t._("Editor visual"),
+			editorVisualInfo: L.t._("Customize visual representation of the entity in the editor view."),
+			nineSliceInfo: L.t._("9-slice scaling mode splits the selected texture in 9 sections (4 corners, 4 borders and 1 inner). Corners are drawn as-is, Borders are repeated on the sides of the entity, and Inner is stretch at the center of the entity. You can adjust the size of up, down, left and right borders, in pixels."),
+			nineSliceBordersLabel: L.t._("9-slices borders:"),
+			topLabel: L.t._("top="),
+			downLabel: L.t._("down="),
+			leftLabel: L.t._("left="),
+			rightLabel: L.t._("right="),
+			tileLabel: L.t._("Tile="),
+			fillLabel: L.t._("% Fill="),
+			lineLabel: L.t._("% Line="),
+			hollowLabel: L.t._("Hollow"),
+			altUiIconLabel: L.t._("Alt UI icon"),
+			altUiIconInfo: L.t._("Alternative icon to represent this entity in the interface panels and lists.\nIf not set, the Editor Visual settings (see above) will be used by default."),
+			pivotPointLabel: L.t._("Pivot point"),
+			pivotPointInfo: L.t._("The pivot of the entity is its actual pixel coordinate of the entity in the level. The pivot alignment can be customized to adjust the position of the entity bounds relatively to these coordinates: the entity could be centered over the point, above it, on the right, etc."),
+			maxCountLabel: L.t._("Max count"),
+			maxCountInfo: L.t._("An entity can be limited to a specific number of instances per level or per world. Examples: a PlayerStart entity could be limited to 1 max per world, or you may limit LightSource entities to 10 per level etc. What actually happens when you reach the limit is also customizable."),
+			andSeparator: L.t._(", and "),
+			whenMaxReached: L.t._("when max is reached."),
+		});
 		linkToButton("button.editEntities");
 
 		function _createEntity() {

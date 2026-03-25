@@ -1,0 +1,1377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LDtk\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-03-24\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid ""
+"'Baking' an auto-layer will flatten it to create a new regular 'Tiles layer'. The copy will contain all the tiles generated from the auto-layer rules.\n"
+"What would you like to do with the original layer after baking it?"
+msgstr ""
+""烘焙"自动图层会将其展平以创建一个新的常规"图块图层"。副本将包含自动图层规则生成的所有图块。\n"
+"烘焙完成后，您希望如何处理原始图层？"
+
+msgid "(default)"
+msgstr "（默认）"
+
+msgid "(none)"
+msgstr "（无）"
+
+msgid "(while moving) Free mode"
+msgstr "（移动时）自由模式"
+
+msgid "*.*"
+msgstr "*.*"
+
+msgid "1.0"
+msgstr "1.0"
+
+msgid "123"
+msgstr "123"
+
+msgid "2D free map - Freely positioned in space"
+msgstr "2D 自由地图 - 在空间中自由定位"
+
+msgid "9-slices scaling"
+msgstr "九宫格缩放"
+
+msgid "::file:: enums deleted"
+msgstr "::file:: 枚举已删除"
+
+msgid "::file::: Levels..."
+msgstr "::file:::关卡..."
+
+msgid "::file::: Project..."
+msgstr "::file:::项目..."
+
+msgid "::n:: columns"
+msgstr "::n:: 列"
+
+msgid "::n:: entities were moved from ::fromLayer:: to ::toLayer::."
+msgstr "::n:: 个实体已从 ::fromLayer:: 移动到 ::toLayer::。"
+
+msgid "::n:: entity(ies) deleted during resizing!"
+msgstr "调整大小时删除了 ::n:: 个实体！"
+
+msgid ""
+"<strong>WARNING:</strong> you are trying to create a project in the application directory!\n"
+"<strong>Any file saved here will be LOST during next app update.</strong>"
+msgstr ""
+"<strong>警告：</strong>您正在尝试在应用程序目录中创建项目！\n"
+"<strong>保存在此处的任何文件将在下次应用更新时丢失。</strong>"
+
+msgid ""
+"<strong>WARNING:</strong> you are trying to save a file in the application directory!\n"
+"<strong>Any file saved here will be LOST during next app update.</strong>"
+msgstr ""
+"<strong>警告：</strong>您正在尝试在应用程序目录中保存文件！\n"
+"<strong>保存在此处的任何文件将在下次应用更新时丢失。</strong>"
+
+msgid "AND"
+msgstr "且"
+
+msgid "All checked values are required."
+msgstr "所有勾选的值都是必需的。"
+
+msgid "All tiles were successfully remapped."
+msgstr "所有图块已成功重新映射。"
+
+msgid "An identifier should be UNIQUE (in this context) and can only contain LETTERS, NUMBERS or UNDERSCORES (ie. \\"
+msgstr "标识符应该是唯一的（在此上下文中），并且只能包含字母、数字或下划线（即 \\"
+
+msgid "An optional group is disabled everywhere by default, and can be enabled manually only in some specific levels."
+msgstr "可选分组默认在所有地方禁用，只能在某些特定关卡中手动启用。"
+
+msgid "Any entity"
+msgstr "任意实体"
+
+msgid "Any entity with one of the specified tags"
+msgstr "带有指定标签之一的任意实体"
+
+msgid "Apply these changes"
+msgstr "应用这些更改"
+
+msgid "Apply to all rules"
+msgstr "应用到所有规则"
+
+msgid "Are you sure you want to delete this level?"
+msgstr "确定要删除此关卡吗？"
+
+msgid "Are you sure you want to delete this world?"
+msgstr "确定要删除此世界吗？"
+
+msgid "Are you sure?"
+msgstr "确定吗？"
+
+msgid "As a radius (grid-based)"
+msgstr "作为半径（基于网格）"
+
+msgid "As a radius (pixels)"
+msgstr "作为半径（像素）"
+
+msgid "As your project is growing bigger, it is STRONGLY advised to enable BACKUPS, to secure your work."
+msgstr "随着项目越来越大，强烈建议启用备份以保护您的工作成果。"
+
+msgid "Assign biome enum"
+msgstr "分配生态群落枚举"
+
+msgid "Assign custom color"
+msgstr "分配自定义颜色"
+
+msgid "Assign group color"
+msgstr "分配分组颜色"
+
+msgid "Assign group icon"
+msgstr "分配分组图标"
+
+msgid "At least one the checked values is required."
+msgstr "至少需要勾选一个值。"
+
+msgid "Auto-layer"
+msgstr "自动图层"
+
+msgid "Backup failed!"
+msgstr "备份失败！"
+
+msgid "Backup file"
+msgstr "备份文件"
+
+msgid "Bake, then delete original layer"
+msgstr "烘焙，然后删除原始图层"
+
+msgid "Bake, then empty original layer"
+msgstr "烘焙，然后清空原始图层"
+
+msgid "Baked layer ::name::"
+msgstr "已烘焙图层 ::name::"
+
+msgid "Baking layer instances"
+msgstr "正在烘焙图层实例"
+
+msgid "Be careful: you have tags in this tileset. You will LOSE them by changing the source Enum!"
+msgstr "请注意：此图块集中有标签。更改源枚举将会丢失这些标签！"
+
+msgid "Boolean"
+msgstr "布尔值"
+
+msgid "C/C++/C#"
+msgstr "C/C++/C#"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Canceled action"
+msgstr "已取消的操作"
+
+msgid "CastleDB"
+msgstr "CastleDB"
+
+msgid "Changed auto-layer biome enum"
+msgstr "已更改自动图层生态群落枚举"
+
+msgid "Changed auto-layer tileset"
+msgstr "已更改自动图层图块集"
+
+msgid "Changed file extension to ::ext::"
+msgstr "已将文件扩展名更改为 ::ext::"
+
+msgid "Changed layer tileset"
+msgstr "已更改图层图块集"
+
+msgid "Changing this will change ALL the level positions! Please make sure you know what you're doing :)"
+msgstr "更改此设置将改变所有关卡的位置！请确保您知道自己在做什么 :)"
+
+msgid "Circle region"
+msgstr "圆形区域"
+
+msgid "Clear all folder history"
+msgstr "清除所有文件夹历史"
+
+msgid "Clear all history"
+msgstr "清除所有历史记录"
+
+msgid "Clear custom data for tile ::tid::?"
+msgstr "清除图块 ::tid:: 的自定义数据？"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Col"
+msgstr "列"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "Condition type"
+msgstr "条件类型"
+
+msgid "Confirm"
+msgstr "确认"
+
+msgid "Confirm this action?"
+msgstr "确认此操作？"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Copy ::e::"
+msgstr "复制 ::e::"
+
+msgid "Copy URL"
+msgstr "复制链接"
+
+msgid "Could not load this image"
+msgstr "无法加载此图片"
+
+msgid "Could not read file content."
+msgstr "无法读取文件内容。"
+
+msgid "Could not write the project JSON file here! Maybe the destination is read-only?"
+msgstr "无法在此处写入项目 JSON 文件！目标位置是否为只读？"
+
+msgid "Couldn't read file: ::name::"
+msgstr "无法读取文件：::name::"
+
+msgid "Couldn't rename project file!"
+msgstr "无法重命名项目文件！"
+
+msgid "Cover (dirty scaling)"
+msgstr "覆盖（粗略缩放）"
+
+msgid "Cover bounds"
+msgstr "覆盖边界"
+
+msgid "Cover level (keep aspect ratio)"
+msgstr "覆盖关卡（保持宽高比）"
+
+msgid "Crash recovery"
+msgstr "崩溃恢复"
+
+msgid "Create a copy of the current level?"
+msgstr "创建当前关卡的副本？"
+
+msgid "Create an empty group"
+msgstr "创建空分组"
+
+msgid "Create rules"
+msgstr "创建规则"
+
+msgid "Cross"
+msgstr "十字"
+
+msgid "Curved arrow"
+msgstr "弯曲箭头"
+
+msgid "Custom project commands"
+msgstr "自定义项目命令"
+
+msgid "Cut"
+msgstr "剪切"
+
+msgid "Cut ::e::"
+msgstr "剪切 ::e::"
+
+msgid "Dashed line"
+msgstr "虚线"
+
+msgid "Debug menu"
+msgstr "调试菜单"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Delete ::e::"
+msgstr "删除 ::e::"
+
+msgid "Delete all crash recovery files"
+msgstr "删除所有崩溃恢复文件"
+
+msgid "Delete all crash recovery files project ::name::?"
+msgstr "删除项目 ::name:: 的所有崩溃恢复文件？"
+
+msgid "Deleting this group will move all its values back to \\"
+msgstr "删除此分组将会把所有值移回 \\"
+
+msgid "Directory \\"
+msgstr "目录 \\"
+
+msgid "Dirty stretch to bounds"
+msgstr "粗略拉伸至边界"
+
+msgid "Disable OPTIONAL state"
+msgstr "禁用可选状态"
+
+msgid ""
+"Disclaimer: Tiled export is only meant to load your LDtk project in a game framework that only supports Tiled files. It is recommended to write your own LDtk JSON parser, as some LDtk features may not be supported.\n"
+"It's not so complicated, I promise :)"
+msgstr ""
+"免责声明：Tiled 导出仅用于在只支持 Tiled 文件的游戏框架中加载您的 LDtk 项目。建议编写自己的 LDtk JSON 解析器，因为某些 LDtk 功能可能不受支持。\n"
+"其实并不复杂，我保证 :)"
+
+msgid "Do not show"
+msgstr "不再显示"
+
+msgid "Do you want to save before leaving?"
+msgstr "离开前要保存吗？"
+
+msgid "Don't export any image"
+msgstr "不导出任何图片"
+
+msgid "Duplicate"
+msgstr "复制"
+
+msgid "Duplicate ::e::"
+msgstr "复制 ::e::"
+
+msgid "Duplicate and remap"
+msgstr "复制并重新映射"
+
+msgid "Duplicate the group, and optionally remap IntGrid IDs and tiles"
+msgstr "复制分组，并可选择重新映射 IntGrid ID 和图块"
+
+msgid "Edit entity definition"
+msgstr "编辑实体定义"
+
+msgid "Edit field definition"
+msgstr "编辑字段定义"
+
+msgid "Edit layer"
+msgstr "编辑图层"
+
+msgid "Edit layer settings"
+msgstr "编辑图层设置"
+
+msgid "Edit rules"
+msgstr "编辑规则"
+
+msgid "Edit rules using the Assistant"
+msgstr "使用助手编辑规则"
+
+msgid "Ellipse"
+msgstr "椭圆"
+
+msgid "Empty"
+msgstr "空"
+
+msgid "Enable backups"
+msgstr "启用备份"
+
+msgid "Enable backups when saving"
+msgstr "保存时启用备份"
+
+msgid "Enabled advanced mode on rule group ::name::"
+msgstr "已在规则分组 ::name:: 上启用高级模式"
+
+msgid "Ent"
+msgstr "实体"
+
+msgid "Enter a new project file name."
+msgstr "输入新的项目文件名。"
+
+msgid "Enter the new project file name :"
+msgstr "输入新的项目文件名："
+
+msgid "Entities"
+msgstr "实体"
+
+msgid "Entity ::name:: deleted"
+msgstr "实体 ::name:: 已删除"
+
+msgid "Entity ref"
+msgstr "实体引用"
+
+msgid "Enu"
+msgstr "枚举"
+
+msgid "Enum"
+msgstr "枚举"
+
+msgid "Enum ::name:: deleted"
+msgstr "枚举 ::name:: 已删除"
+
+msgid "Enum icons changed"
+msgstr "枚举图标已更改"
+
+msgid "Enum value ::name:: deleted"
+msgstr "枚举值 ::name:: 已删除"
+
+msgid "Enum.::e::"
+msgstr "Enum.::e::"
+
+msgid "Enums are already up-to-date."
+msgstr "枚举已是最新。"
+
+msgid "Enums updated successfully."
+msgstr "枚举更新成功。"
+
+msgid "Error during project saving"
+msgstr "保存项目时出错"
+
+msgid "Errors in current layer settings prevent rules to be applied. It can't be baked now."
+msgstr "当前图层设置中的错误导致规则无法应用。目前无法进行烘焙。"
+
+msgid "Exporting Tiled..."
+msgstr "正在导出 Tiled..."
+
+msgid "External file \\"
+msgstr "外部文件 \\"
+
+msgid "Failed on ::file::"
+msgstr "在 ::file:: 上失败"
+
+msgid "Failed to import this Ogmo project. If you really need this, feel free to send me the Ogmo project file so I can check and fix the updater (see contact link)."
+msgstr "导入此 Ogmo 项目失败。如果您确实需要此功能，请将 Ogmo 项目文件发送给我，以便我检查并修复导入器（请参阅联系链接）。"
+
+msgid "Field ::name:: deleted"
+msgstr "字段 ::name:: 已删除"
+
+msgid "File not found!"
+msgstr "文件未找到！"
+
+msgid "File not found."
+msgstr "文件未找到。"
+
+msgid "File not found: ::name::"
+msgstr "文件未找到：::name::"
+
+msgid "File not found: ::path::"
+msgstr "文件未找到：::path::"
+
+msgid "File path"
+msgstr "文件路径"
+
+msgid "File was modified"
+msgstr "文件已被修改"
+
+msgid "Fit inside (keep aspect ratio)"
+msgstr "适应内部（保持宽高比）"
+
+msgid "Fit inside bounds"
+msgstr "适应边界内部"
+
+msgid "Fix that later"
+msgstr "稍后修复"
+
+msgid "Float"
+msgstr "浮点数"
+
+msgid "Full size (cropped in bounds)"
+msgstr "全尺寸（在边界内裁剪）"
+
+msgid "Full size (not cropped)"
+msgstr "全尺寸（不裁剪）"
+
+msgid "Go to world:"
+msgstr "前往世界："
+
+msgid "Grid view"
+msgstr "网格视图"
+
+msgid "GridVania - Levels are positioned inside a large world-scale grid"
+msgstr "GridVania - 关卡在大型世界网格中定位"
+
+msgid "Haxe"
+msgstr "Haxe"
+
+msgid "Haxe source code"
+msgstr "Haxe 源代码"
+
+msgid "Hey, it looks like a binary file: this cannot be opened in this editor."
+msgstr "嘿，这看起来是一个二进制文件：无法在此编辑器中打开。"
+
+msgid "Horizontal - One level after the other"
+msgstr "水平排列 - 关卡依次排列"
+
+msgid "Horizontally"
+msgstr "水平"
+
+msgid "Identifier style changed"
+msgstr "标识符样式已更改"
+
+msgid ""
+"If enabled, external level file names will be prefixed with an index reflecting their position in the internal array.\n"
+"This is NOT recommended because, with versioning systems (such as GIT), inserting a new level means renaming files of all subsequent levels in the array.\n"
+"This option used to be the default behavior but was changed in version 1.0.0."
+msgstr ""
+"如果启用，外部关卡文件名将以反映其在内部数组中位置的索引为前缀。\n"
+"不建议这样做，因为使用版本控制系统（如 GIT）时，插入新关卡意味着需要重命名数组中所有后续关卡的文件。\n"
+"此选项曾是默认行为，但在 1.0.0 版本中已更改。"
+
+msgid "If enabled, levels will be stored in a 'worlds' array at the root of the project JSON instead of the root itself directly.\nThis option is still experimental and is not yet supported if Separate Levels option is enabled."
+msgstr ""
+"如果启用，关卡将存储在项目 JSON 根目录下的 'worlds' 数组中，而不是直接存储在根目录中。\n"
+"此选项仍处于实验阶段，如果启用了"分离关卡"选项，则尚不支持。"
+
+msgid "If enabled, the 'toc' field in the project JSON will contain an 'instances' array in addition of the new 'instanceData' array (see JSON online doc for more info)."
+msgstr "如果启用，项目 JSON 中的 'toc' 字段除了新的 'instanceData' 数组外，还将包含 'instances' 数组（详情请参阅 JSON 在线文档）。"
+
+msgid "If enabled, the JSON value \\"
+msgstr "如果启用，JSON 值 \\"
+
+msgid "If enabled, the exported JSON file will also contain the now deprecated array \\"
+msgstr "如果启用，导出的 JSON 文件还将包含现已弃用的数组 \\"
+
+msgid "If this happens a lot, you should try to update your graphic drivers."
+msgstr "如果经常发生这种情况，您应该尝试更新显卡驱动。"
+
+msgid "Ignore"
+msgstr "忽略"
+
+msgid "Image reloaded: ::file::"
+msgstr "图片已重新加载：::file::"
+
+msgid "Import a project from another app"
+msgstr "从其他应用导入项目"
+
+msgid ""
+"In advanced mode, you will be able to edit manually all the rules or add new ones, for more advanced results.\n"
+"WARNING: enabling advanced mode will prevent you from using the Rule Assistant anymore on this particular group."
+msgstr ""
+"在高级模式下，您可以手动编辑所有规则或添加新规则，以获得更高级的效果。\n"
+"警告：启用高级模式后，您将无法再对此特定分组使用规则助手。"
+
+msgid "Individual tiles"
+msgstr "单个图块"
+
+msgid "IntGrid value removed"
+msgstr "IntGrid 值已移除"
+
+msgid "Integer"
+msgstr "整数"
+
+msgid "Integer grid"
+msgstr "整数网格"
+
+msgid "Invalid file name"
+msgstr "无效的文件名"
+
+msgid "JSON"
+msgstr "JSON"
+
+msgid "Javascript"
+msgstr "Javascript"
+
+msgid "Keep both baked result and original"
+msgstr "同时保留烘焙结果和原始图层"
+
+msgid "LDtk major updates"
+msgstr "LDtk 重大更新"
+
+msgid "Layer ::name:: deleted"
+msgstr "图层 ::name:: 已删除"
+
+msgid "Layer grid changed"
+msgstr "图层网格已更改"
+
+msgid "Level exporter result"
+msgstr "关卡导出结果"
+
+msgid "Level resized"
+msgstr "关卡已调整大小"
+
+msgid "Line of arrows"
+msgstr "箭头线"
+
+msgid "List"
+msgstr "列表"
+
+msgid "Load from this folder"
+msgstr "从此文件夹加载"
+
+msgid "Loaded selection of ::n:: tiles"
+msgstr "已加载 ::n:: 个图块的选区"
+
+msgid "Loading from the following source is not supported: ::origin::"
+msgstr "不支持从以下来源加载：::origin::"
+
+msgid ""
+"Loading successful, but the following level paths were fixed automatically.\n"
+"It seems like you renamed your LDtk project externally: this is defintely NOT recommended, and you should ALWAYS use the \\"
+msgstr ""
+"加载成功，但以下关卡路径已自动修复。\n"
+"您似乎在外部重命名了 LDtk 项目：这绝对不建议，您应始终使用 \\"
+
+msgid "Locate file"
+msgstr "定位文件"
+
+msgid "Locate folder"
+msgstr "定位文件夹"
+
+msgid "Locate the file"
+msgstr "定位该文件"
+
+msgid "Log file"
+msgstr "日志文件"
+
+msgid "Lua"
+msgstr "Lua"
+
+msgid "Markdown"
+msgstr "Markdown"
+
+msgid "Move this level to:"
+msgstr "将此关卡移动到："
+
+msgid "Moved entities between layers"
+msgstr "在图层之间移动了实体"
+
+msgid "Multilines"
+msgstr "多行"
+
+msgid "Name this group of rules."
+msgstr "为此规则分组命名。"
+
+msgid "Name this new group"
+msgstr "为新分组命名"
+
+msgid "Need at least 1 layer"
+msgstr "至少需要 1 个图层"
+
+msgid "Never"
+msgstr "从不"
+
+msgid "New level"
+msgstr "新建关卡"
+
+msgid "New project in this folder"
+msgstr "在此文件夹中新建项目"
+
+msgid "New world created"
+msgstr "已创建新世界"
+
+msgid "No"
+msgstr "否"
+
+msgid "No room for a level here! Do you want to pick another location?"
+msgstr "此处没有放置关卡的空间！您想选择其他位置吗？"
+
+msgid "No, and I understand the risk."
+msgstr "否，我了解风险。"
+
+msgid "Not scaled"
+msgstr "不缩放"
+
+msgid "ON"
+msgstr "开"
+
+msgid "OR"
+msgstr "或"
+
+msgid "Off"
+msgstr "关"
+
+msgid "Ogmo 3 project"
+msgstr "Ogmo 3 项目"
+
+msgid "One PNG per layer"
+msgstr "每个图层一个 PNG"
+
+msgid "One PNG per layer and one per level."
+msgstr "每个图层一个 PNG，每个关卡一个 PNG。"
+
+msgid "One PNG per level (layers are merged down)"
+msgstr "每个关卡一个 PNG（图层已合并）"
+
+msgid "Only a specific Entity"
+msgstr "仅限特定实体"
+
+msgid "Only another '::name::'s"
+msgstr "仅限其他 '::name::' 的"
+
+msgid "Opaque tables"
+msgstr "不透明表格"
+
+msgid "Open enum panel"
+msgstr "打开枚举面板"
+
+msgid "Open project folder"
+msgstr "打开项目文件夹"
+
+msgid "Out-of-bounds entity removed: ::names::"
+msgstr "已移除越界实体：::names::"
+
+msgid "Outlined texts (default)"
+msgstr "描边文字（默认）"
+
+msgid "PNG export"
+msgstr "PNG 导出"
+
+msgid "Paste"
+msgstr "粘贴"
+
+msgid "Paste ::e::"
+msgstr "粘贴 ::e::"
+
+msgid "Paste ::e:: after"
+msgstr "在之后粘贴 ::e::"
+
+msgid "Paste after"
+msgstr "在之后粘贴"
+
+msgid "Pick"
+msgstr "选取"
+
+msgid "Pick an existing enum"
+msgstr "选取现有枚举"
+
+msgid "Pick saved selection"
+msgstr "选取已保存的选区"
+
+msgid "Plain text"
+msgstr "纯文本"
+
+msgid "Please locate the original project represented by this backup."
+msgstr "请定位此备份所对应的原始项目。"
+
+msgid "Please wait..."
+msgstr "请稍候..."
+
+msgid "Point"
+msgstr "点"
+
+msgid "Project command removed"
+msgstr "项目命令已移除"
+
+msgid "Project errors"
+msgstr "项目错误"
+
+msgid "Project file setting changed"
+msgstr "项目文件设置已更改"
+
+msgid "Python"
+msgstr "Python"
+
+msgid "Rectangle"
+msgstr "矩形"
+
+msgid "Rectangle region"
+msgstr "矩形区域"
+
+msgid "Rectangles of tiles"
+msgstr "图块矩形"
+
+msgid "Reference link (using center coord)"
+msgstr "引用链接（使用中心坐标）"
+
+msgid "Reference link (using pivot coord)"
+msgstr "引用链接（使用锚点坐标）"
+
+msgid "Release notes"
+msgstr "更新日志"
+
+msgid "Reload and synchronize Enums"
+msgstr "重新加载并同步枚举"
+
+msgid "Reload it"
+msgstr "重新加载"
+
+msgid "Relocated a lost file"
+msgstr "已重新定位丢失的文件"
+
+msgid "Remove extern source"
+msgstr "移除外部来源"
+
+msgid "Remove from history"
+msgstr "从历史记录中移除"
+
+msgid "Remove group color"
+msgstr "移除分组颜色"
+
+msgid "Remove group icon"
+msgstr "移除分组图标"
+
+msgid "Remove this external Enum source"
+msgstr "移除此外部枚举来源"
+
+msgid "Rename"
+msgstr "重命名"
+
+msgid "Repeat"
+msgstr "重复"
+
+msgid "Replace entity tile"
+msgstr "替换实体图块"
+
+msgid "Replace level render in world view"
+msgstr "替换世界视图中的关卡渲染"
+
+msgid "Reset assigned color"
+msgstr "重置分配的颜色"
+
+msgid "Resize level"
+msgstr "调整关卡大小"
+
+msgid "Restore this backup"
+msgstr "恢复此备份"
+
+msgid "Retry"
+msgstr "重试"
+
+msgid "Ruby"
+msgstr "Ruby"
+
+msgid "Rule group removed"
+msgstr "规则分组已移除"
+
+msgid "Run after loading"
+msgstr "加载后运行"
+
+msgid "Run after saving"
+msgstr "保存后运行"
+
+msgid "Run before saving"
+msgstr "保存前运行"
+
+msgid "Run manually (CMD-R)"
+msgstr "手动运行 (CMD-R)"
+
+msgid "Run manually (CTRL-R)"
+msgstr "手动运行 (CTRL-R)"
+
+msgid "Save as..."
+msgstr "另存为..."
+
+msgid "Saved. You need to RESTART the app to apply your changes."
+msgstr "已保存。您需要重启应用程序以应用更改。"
+
+msgid "Saving levels"
+msgstr "正在保存关卡"
+
+msgid "Selected all"
+msgstr "已全选"
+
+msgid "Selected all in layer"
+msgstr "已全选图层中的内容"
+
+msgid "Set group color"
+msgstr "设置分组颜色"
+
+msgid "Settings saved."
+msgstr "设置已保存。"
+
+msgid "Show array length only"
+msgstr "仅显示数组长度"
+
+msgid "Show array length with label"
+msgstr "显示数组长度和标签"
+
+msgid "Show connected point"
+msgstr "显示连接的点"
+
+msgid "Show isolated point"
+msgstr "显示孤立的点"
+
+msgid "Show isolated points"
+msgstr "显示孤立的点"
+
+msgid "Show path of points"
+msgstr "显示点的路径"
+
+msgid "Show path of points (looping)"
+msgstr "显示点的路径（循环）"
+
+msgid "Show star of points"
+msgstr "显示点的星形"
+
+msgid "Show value only"
+msgstr "仅显示值"
+
+msgid "Show values only"
+msgstr "仅显示值"
+
+msgid "Showing everything"
+msgstr "显示全部"
+
+msgid "Showing tiles only"
+msgstr "仅显示图块"
+
+msgid ""
+"Sorry but LDtk does not support working on a Network Drive yet.\n"
+"So, for your own safety, operations on Network Drives are not permitted for now to avoid errors and potential data loss."
+msgstr ""
+"抱歉，LDtk 尚不支持在网络驱动器上工作。\n"
+"为了您的数据安全，目前不允许在网络驱动器上操作，以避免错误和潜在的数据丢失。"
+
+msgid "Sorry, but I can't restore this backup: I can't locate the original project file."
+msgstr "抱歉，无法恢复此备份：无法找到原始项目文件。"
+
+msgid "Stop using this image?"
+msgstr "停止使用此图片？"
+
+msgid "Straight arrow"
+msgstr "直箭头"
+
+msgid "String"
+msgstr "字符串"
+
+msgid "Switch when zooming in or out (default)"
+msgstr "缩放时切换（默认）"
+
+msgid "Switch when zooming out"
+msgstr "缩小时切换"
+
+msgid "Text file"
+msgstr "文本文件"
+
+msgid ""
+"The WebGL context was lost!\n"
+"Don't worry, it's probably nothing, and no data was lost. You should just save your work and restart the application."
+msgstr ""
+"WebGL 上下文已丢失！\n"
+"不用担心，这可能没什么问题，没有数据丢失。您只需保存工作并重启应用程序即可。"
+
+msgid ""
+"The WebGL context was lost!\n"
+"You need to restart the application."
+msgstr ""
+"WebGL 上下文已丢失！\n"
+"您需要重启应用程序。"
+
+msgid "The current layer settings prevent its rules to work."
+msgstr "当前图层设置导致其规则无法工作。"
+
+msgid "The file you're trying to save is a ::app:: sample map.\nAny change to it will be lost during automatic updates, so it's NOT recommended to modify it."
+msgstr ""
+"您尝试保存的文件是 ::app:: 示例地图。\n"
+"任何更改都将在自动更新时丢失，因此不建议修改它。"
+
+msgid "The following file cannot be found anymore:"
+msgstr "以下文件已无法找到："
+
+msgid "The following file has been modified externally and should be updated:"
+msgstr "以下文件已被外部修改，需要更新："
+
+msgid "The identifier \\"
+msgstr "标识符 \\"
+
+msgid "The new grid size is larger than the previous one.\nSome tiles may have been lost in the remapping process."
+msgstr ""
+"新的网格大小大于之前的网格大小。\n"
+"在重新映射过程中，部分图块可能已丢失。"
+
+msgid "The project file is no longer in ::path::. Save to this path anyway?"
+msgstr "项目文件已不在 ::path:: 中。是否仍要保存到此路径？"
+
+msgid "The project was NOT saved properly!"
+msgstr "项目未正确保存！"
+
+msgid "The select project doesn't match this backup."
+msgstr "所选项目与此备份不匹配。"
+
+msgid "The selected file has a different name: are you sure it's the one? Selecting a different file may have dramatic results."
+msgstr "所选文件名称不同：您确定是这个文件吗？选择不同的文件可能会导致严重后果。"
+
+msgid "This auto-layer doesn't have a tileset. Please pick one in the LAYERS panel."
+msgstr "此自动图层没有图块集。请在"图层"面板中选择一个。"
+
+msgid "This conversion will TRANSFORM EXISTING VALUES because the target type isn't fully compatible with the previous one!\nSome data might be lost in the process because of this conversion.\nPlease make sure that you known what you're doing here."
+msgstr ""
+"此转换将改变现有值，因为目标类型与原类型不完全兼容！\n"
+"由于此转换，过程中可能会丢失部分数据。\n"
+"请确保您了解此操作的后果。"
+
+msgid "This entity is not used and can be safely removed."
+msgstr "此实体未被使用，可以安全移除。"
+
+msgid "This enum is not used and can be safely removed."
+msgstr "此枚举未被使用，可以安全移除。"
+
+msgid "This file is empty: ::path::"
+msgstr "此文件为空：::path::"
+
+msgid "This file name is already in use."
+msgstr "此文件名已被使用。"
+
+msgid "This layer cannot be baked, as at least one other auto-layer rely on it as 'source' for its data."
+msgstr "此图层无法烘焙，因为至少有一个其他自动图层将其作为数据"来源"。"
+
+msgid "This project contains no Enum yet. You first need to create one from the Enum panel."
+msgstr "此项目尚未包含枚举。您需要先从枚举面板中创建一个。"
+
+msgid "This selection can't be moved around because it contains elements using different grid sizes."
+msgstr "此选区无法移动，因为它包含使用不同网格大小的元素。"
+
+msgid ""
+"This tag is used in other elements!\n"
+"Do you want to rename it in ALL other elements as well, or only here?"
+msgstr ""
+"此标签在其他元素中也有使用！\n"
+"您要在所有其他元素中也重命名它，还是仅在此处重命名？"
+
+msgid "This tile layer has no Tileset."
+msgstr "此图块图层没有图块集。"
+
+msgid "This value is used in some levels: removing it will also remove the value from all these levels. Are you sure?"
+msgstr "此值在某些关卡中使用：移除它也将从所有这些关卡中移除该值。确定吗？"
+
+msgid "Tile"
+msgstr "图块"
+
+msgid "Tiles"
+msgstr "图块"
+
+msgid "Tileset ::name:: deleted"
+msgstr "图块集 ::name:: 已删除"
+
+msgid "Tileset grid changed"
+msgstr "图块集网格已更改"
+
+msgid "Tileset image ::name:: updated."
+msgstr "图块集图片 ::name:: 已更新。"
+
+msgid "Tileset image \\"
+msgstr "图块集图片 \\"
+
+msgid "Tileset tags removed"
+msgstr "图块集标签已移除"
+
+msgid "Toggle visibility"
+msgstr "切换可见性"
+
+msgid "Turn into an OPTIONAL group"
+msgstr "转换为可选分组"
+
+msgid "Type conversion"
+msgstr "类型转换"
+
+msgid "Untagged"
+msgstr "未标记"
+
+msgid "Update rules"
+msgstr "更新规则"
+
+msgid "Updating auto layers..."
+msgstr "正在更新自动图层..."
+
+msgid "Use assistant (recommended)"
+msgstr "使用助手（推荐）"
+
+msgid "User defined documentation that will appear near this element to provide help and tips to the level designers."
+msgstr "用户自定义文档，将显示在此元素附近，为关卡设计师提供帮助和提示。"
+
+msgid "Validate"
+msgstr "验证"
+
+msgid "Vertical - One level after the other"
+msgstr "垂直排列 - 关卡依次排列"
+
+msgid "Vertically"
+msgstr "垂直"
+
+msgid "WARNING! This ENUM is used in one or more entity fields. These fields will also be deleted!"
+msgstr "警告！此枚举在一个或多个实体字段中使用。这些字段也将被删除！"
+
+msgid "WARNING! This entity is used in one or more levels. The corresponding instances will also be deleted!"
+msgstr "警告！此实体在一个或多个关卡中使用。对应的实例也将被删除！"
+
+msgid "WARNING! This enum value is USED in one or more entity instances. These values will also be removed!"
+msgstr "警告！此枚举值在一个或多个实体实例中使用。这些值也将被移除！"
+
+msgid ""
+"WARNING!\n"
+"Please make sure the game engine or importer you're using supports this kind of LDtk identifier!\n"
+"Are you sure?"
+msgstr ""
+"警告！\n"
+"请确保您使用的游戏引擎或导入工具支持此类 LDtk 标识符！\n"
+"确定吗？"
+
+msgid ""
+"WARNING!\n"
+"Please make sure the game engine or importer you're using supports this kind of LDtk identifier!\n"
+"If you proceed, all identifiers in this project will be converted to the new format!\n"
+"Are you sure?"
+msgstr ""
+"警告！\n"
+"请确保您使用的游戏引擎或导入工具支持此类 LDtk 标识符！\n"
+"如果继续，此项目中的所有标识符将被转换为新格式！\n"
+"确定吗？"
+
+msgid "WARNING: removing this external enum will also remove ALL the external enums from the same source! Please note that this will also affect all Entities using any of these enums in ALL levels."
+msgstr "警告：移除此外部枚举也将移除同一来源的所有外部枚举！请注意，这也将影响所有关卡中使用这些枚举的所有实体。"
+
+msgid ""
+"WARNING: restoring this backup will REPLACE the original project file with this version.\n"
+"Are you sure?"
+msgstr ""
+"警告：恢复此备份将用此版本替换原始项目文件。\n"
+"确定吗？"
+
+msgid ""
+"Warning! This IntGrid layer is used by another one as SOURCE. Deleting it will also delete all rules in the corresponding auto-layer(s)!\n"
+" You may want to change these layers source to another one before..."
+msgstr ""
+"警告！此 IntGrid 图层被另一个图层用作数据来源。删除它也将删除对应自动图层中的所有规则！\n"
+"您可能需要先将这些图层的来源更改为其他图层..."
+
+msgid "Warning: by removing the OPTIONAL status of this group, you will lose the on/off state of this group in all levels. The group of rules will become a 'global' one, applied to every levels."
+msgstr "警告：移除此分组的可选状态后，您将丢失此分组在所有关卡中的开/关状态。该规则分组将变为"全局"分组，应用于所有关卡。"
+
+msgid "Warning: the TILESET grid (::tileset::px) differs from the LAYER grid (::layer::px), and the values aren't multiples, which can lead to unexpected behaviors when adding a group of tiles."
+msgstr "警告：图块集网格 (::tileset::px) 与图层网格 (::layer::px) 不同，且数值不是倍数关系，这可能在添加图块组时导致意外行为。"
+
+msgid "Warning: using this tileset in this layer will mess any existing tiles here."
+msgstr "警告：在此图层中使用此图块集将打乱此处的所有现有图块。"
+
+msgid "What do you want to do?"
+msgstr "您想要执行什么操作？"
+
+msgid "World layout changed"
+msgstr "世界布局已更改"
+
+msgid "World view"
+msgstr "世界视图"
+
+msgid "X::sep::Y"
+msgstr "X::sep::Y"
+
+msgid "XML/HTML"
+msgstr "XML/HTML"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "You can't delete the last level."
+msgstr "无法删除最后一个关卡。"
+
+msgid "You can't delete the last world."
+msgstr "无法删除最后一个世界。"
+
+msgid "You cannot have more than ::n:: ::name::."
+msgstr "::name:: 不能超过 ::n:: 个。"
+
+msgid "You need to pick an IntGrid value."
+msgstr "您需要选择一个 IntGrid 值。"
+
+msgid "You should save the project at least once for this setting to apply its effects."
+msgstr "您需要至少保存一次项目才能使此设置生效。"
+
+msgid "Zig-zag"
+msgstr "锯齿形"
+
+msgid "\\"
+msgstr "\\"
+
+msgid "at"
+msgstr "在"
+
+msgid "discard older ones"
+msgstr "丢弃旧的"
+
+msgid "group"
+msgstr "分组"
+
+msgid "in the world"
+msgstr "在世界中"
+
+msgid "move the last one instead of adding"
+msgstr "移动最后一个而不是添加"
+
+msgid "off"
+msgstr "关"
+
+msgid "per layer"
+msgstr "每个图层"
+
+msgid "per level"
+msgstr "每个关卡"
+
+msgid "prevent adding more"
+msgstr "阻止添加更多"
+
+msgid "✔"
+msgstr "✔"
+
+msgid "An identifier should be UNIQUE (in this context) and can only contain LETTERS, NUMBERS or UNDERSCORES (ie. \"_\")."
+msgstr "标识符必须是唯一的（在此上下文中），且只能包含字母、数字或下划线（即 \"_\"）。"
+
+msgid "Deleting this group will move all its values back to \"UNGROUPED\". Confirm?"
+msgstr "删除此分组会将其所有值移回"未分组"。确认？"
+
+msgid "Directory \"::dir::\" not found!\nThe levels should be saved separately in this directory, but it's now missing. Did you rename the project manually, or forgot to copy it?"
+msgstr "未找到目录 \"::dir::\"！\n关卡应单独保存在此目录中，但该目录现在缺失了。您是否手动重命名了项目，或忘记复制了？"
+
+msgid "External file \"::name::\" synced"
+msgstr "外部文件 \"::name::\" 已同步"
+
+msgid "If enabled, the JSON value \"__type\" for Field Instances and Field Definitions will be \"Multilines\" instead of \"String\" for all fields of Multilines type."
+msgstr "如果启用，字段实例和字段定义中多行类型字段的 JSON 值 \"__type\" 将变为 \"Multilines\" 而不是 \"String\"。"
+
+msgid "If enabled, the exported JSON file will also contain the now deprecated array \"intGrid\". The file will be significantly larger.\nOnly use this if your game API only supports LDtk 0.8.x or less."
+msgstr "如果启用，导出的 JSON 文件还将包含已弃用的 \"intGrid\" 数组。文件将显著增大。\n仅当您的游戏 API 仅支持 LDtk 0.8.x 或更早版本时才使用此选项。"
+
+msgid ""
+"Loading successful, but the following level paths were fixed automatically.\n"
+"It seems like you renamed your LDtk project externally: this is defintely NOT recommended, and you should ALWAYS use the \"Save As\" or \"Rename\" buttons from the Project panel (P shortcut).\n"
+"Anyway, it seems like everything is fine. Hopefully. Don't do that again, please.\n"
+" ::paths::"
+msgstr ""
+"加载成功，但以下关卡路径已自动修复。\n"
+"您似乎在外部重命名了 LDtk 项目：我们强烈不建议这样做，您应始终使用项目面板（快捷键 P）中的"另存为"或"重命名"按钮。\n"
+"总之，目前看来一切正常。希望如此。请不要再这样做了。\n"
+" ::paths::"
+
+msgid "The identifier \"::id::\" isn't valid, or isn't unique."
+msgstr "标识符 \"::id::\" 无效或不唯一。"
+
+msgid ""
+"Tileset image \"::name::\" was reloaded and the new version was larger than the old one.\n"
+"Tiles coordinates were remapped, everything is ok :)"
+msgstr ""
+"图块集图片 \"::name::\" 已重新加载，新版本比旧版本大。\n"
+"图块坐标已重新映射，一切正常 :)"
+
+msgid ""
+"\"::name::\" image was modified but it was SMALLER than the old version.\n"
+"Luckily, the tileset had some PADDING, so I was able to use it to compensate the difference.\n"
+"So everything is ok, have a nice day ♥️"
+msgstr ""
+"\"::name::\" 图片已修改，但比旧版本更小。\n"
+"幸运的是，图块集有一些内边距，因此可以用来补偿差异。\n"
+"所以一切正常，祝您愉快 ♥️"
+
+msgid ""
+"\"::name::\" image was updated, but the new version is smaller than the previous one.\n"
+"Some tiles might have been lost in the process. It is recommended to check this carefully before saving this project!"
+msgstr ""
+"\"::name::\" 图片已更新，但新版本比之前的版本更小。\n"
+"某些图块可能在此过程中丢失。建议在保存项目之前仔细检查！"
+
+msgid "\"Ab\""
+msgstr "\"Ab\""
+
+msgid "\"Ab\\n\""
+msgstr "\"Ab\\n\""
+
+msgid "Application settings"
+msgstr "应用设置"
+
+msgid "A new update is available!"
+msgstr "有新的更新可用！"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Select the display language for LDtk. A restart is required to apply the change."
+msgstr "选择 LDtk 的显示语言。需要重启应用以使更改生效。"
+
+msgid "Re-open last project"
+msgstr "重新打开上次的项目"
+
+msgid "Visuals"
+msgstr "视觉效果"
+
+msgid "General UI scale"
+msgstr "通用界面缩放"
+
+msgid "This setting will affect the whole User Interface size."
+msgstr "此设置将影响整个用户界面的大小。"
+
+msgid "Level UI scale"
+msgstr "关卡界面缩放"
+
+msgid "This setting will only affect the size of texts and icons in the EDITOR VIEW (including entities custom fields and level custom fields)."
+msgstr "此设置仅影响编辑器视图中文本和图标的大小（包括实体自定义字段和关卡自定义字段）。"
+
+msgid "Entity fields aspect"
+msgstr "实体字段外观"
+
+msgid "This option controls the visual aspect of custom entity fields in the editor."
+msgstr "此选项控制编辑器中自定义实体字段的视觉外观。"
+
+msgid "\"Nearby levels\" tiles rendering distance"
+msgstr ""相邻关卡"图块渲染距离"
+
+msgid "Single-layer mode intensity"
+msgstr "单图层模式强度"
+
+msgid "Start in fullscreen mode"
+msgstr "以全屏模式启动"
+
+msgid "Prefer color-blind colors"
+msgstr "使用色盲友好颜色"
+
+msgid "Enable this option to use color-blind friendly colors by default for newly created entities, enums or intGrid values."
+msgstr "启用此选项以在新创建的实体、枚举或整数网格值中默认使用色盲友好颜色。"
+
+msgid "Fade LDtk window when not focused"
+msgstr "失焦时淡化 LDtk 窗口"
+
+msgid "If enabled, the LDtk window will be grayed out when it is not focused."
+msgstr "启用后，当 LDtk 窗口未获得焦点时将变灰。"
+
+msgid "Controls"
+msgstr "控制"
+
+msgid "Mouse wheel speed"
+msgstr "鼠标滚轮速度"
+
+msgid "This setting affects the zoom in/out speed when using the mouse wheel."
+msgstr "此设置影响使用鼠标滚轮时的缩放速度。"
+
+msgid "World view with mouse wheel"
+msgstr "使用鼠标滚轮切换世界视图"
+
+msgid "Navigation keys layout"
+msgstr "导航键布局"
+
+msgid "Navigation keys are used to navigate through the palette of values in a layer. For example, in a Tiles layer, you can navigate through the different tiles using these keys."
+msgstr "导航键用于在图层中的值调色板中导航。例如，在图块图层中，您可以使用这些键浏览不同的图块。"
+
+msgid "Advanced options"
+msgstr "高级选项"
+
+msgid "Try to use best GPU"
+msgstr "尝试使用最佳 GPU"
+
+msgid "Auto update"
+msgstr "自动更新"
+
+msgid "Recommended"
+msgstr "推荐"
+
+msgid "Only supported on Windows."
+msgstr "仅支持 Windows 系统。"
+
+msgid "If enabled, ::app:: will automatically re-open your last project and select the last level you were in."
+msgstr "启用后，::app:: 将自动重新打开您上次的项目并选择您之前所在的关卡。"
+
+msgid "If enabled, the tiles from nearby levels will also be rendered, to help you when painting transitions between maps. Please note that this could have a significant impact on performances for large levels."
+msgstr "启用后，相邻关卡的图块也会被渲染，以帮助您绘制地图之间的过渡。请注意，对于大型关卡，这可能会对性能产生较大影响。"
+
+msgid "When the \"single-layer\" mode is enabled, this setting defines the intensity of the fading effect applied to other layers."
+msgstr "启用"单图层"模式后，此设置定义应用于其他图层的淡出效果强度。"
+
+msgid "Set default \"Full screen\" state when starting ::app::. You may also toggle fullscreen mode at any time using the F11 key."
+msgstr "设置启动 ::app:: 时的默认"全屏"状态。您也可以随时使用 F11 键切换全屏模式。"
+
+msgid "This setting allows to automatically switch to the World view when zooming out from a level. You can then zoom back in to any level to select it."
+msgstr "此设置允许在从关卡缩小时自动切换到世界视图。然后您可以重新放大任何关卡以选择它。"
+
+msgid "When enabled, ::app:: will always try to use the best GPU available on your system, resulting in better performances. This might use extra battery life."
+msgstr "启用后，::app:: 将始终尝试使用系统中最佳的 GPU，从而获得更好的性能。这可能会消耗更多电量。"
+
+msgid "When enabled, ::app:: will download and install new updates fully automatically. This is strongly RECOMMENDED as many updates contain important bug fixes and new features."
+msgstr "启用后，::app:: 将完全自动下载和安装新更新。强烈推荐此功能，因为许多更新包含重要的错误修复和新功能。"
+
+msgid "The LOG file is only useful when reporting bugs. You can attach it to an e-mail or when you create an issue on GitHub site. It doesn't contain any sensitive or personal information, except used file paths."
+msgstr "日志文件仅在报告错误时有用。您可以将其附加到电子邮件中或在 GitHub 上创建问题时使用。它不包含任何敏感或个人信息，除了使用的文件路径。"
+
+msgid "Install"
+msgstr "安装"
+
+msgid "Disabled"
+msgstr "禁用"
+
+msgid "pixels"
+msgstr "像素"
