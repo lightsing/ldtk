@@ -50,7 +50,7 @@ class EditProject extends ui.modal.Panel {
 			backupRecommendWarning: L.t._("It's recommended to enable backups for large or important projects."),
 			minifyJsonLabel: L.t._("Minify JSON"),
 			minifyJsonInfo: L.t._("Enable this to save project JSON file without any \"pretty\" formatting (ie. white spaces and indentation). This is NOT necessarily recommended if your project is stored on a versioning system (git, svn etc.) because this could cause issues with diffs and merging operations. Only use this option if you really need to reduce the project files size."),
-			identifiersFormatLabel: L.t._("Identifers format convention"),
+			identifiersFormatLabel: L.t._("Identifiers format convention"),
 			identifiersFormatInfo: L.t._("This option allows to customize the constraints on \"identifiers\" format. It's recommended to keep the default \"First letter uppercased\" format, unless you know what you're doing."),
 			customCommandsHeader: L.t._("User custom commands"),
 			customCommandsLabel: L.t._("Custom commands"),
