@@ -1188,3 +1188,190 @@ msgstr "阻止添加更多"
 
 msgid "✔"
 msgstr "✔"
+
+msgid "An identifier should be UNIQUE (in this context) and can only contain LETTERS, NUMBERS or UNDERSCORES (ie. \"_\")."
+msgstr "标识符必须是唯一的（在此上下文中），且只能包含字母、数字或下划线（即 \"_\"）。"
+
+msgid "Deleting this group will move all its values back to \"UNGROUPED\". Confirm?"
+msgstr "删除此分组会将其所有值移回"未分组"。确认？"
+
+msgid "Directory \"::dir::\" not found!\nThe levels should be saved separately in this directory, but it's now missing. Did you rename the project manually, or forgot to copy it?"
+msgstr "未找到目录 \"::dir::\"！\n关卡应单独保存在此目录中，但该目录现在缺失了。您是否手动重命名了项目，或忘记复制了？"
+
+msgid "External file \"::name::\" synced"
+msgstr "外部文件 \"::name::\" 已同步"
+
+msgid "If enabled, the JSON value \"__type\" for Field Instances and Field Definitions will be \"Multilines\" instead of \"String\" for all fields of Multilines type."
+msgstr "如果启用，字段实例和字段定义中多行类型字段的 JSON 值 \"__type\" 将变为 \"Multilines\" 而不是 \"String\"。"
+
+msgid "If enabled, the exported JSON file will also contain the now deprecated array \"intGrid\". The file will be significantly larger.\nOnly use this if your game API only supports LDtk 0.8.x or less."
+msgstr "如果启用，导出的 JSON 文件还将包含已弃用的 \"intGrid\" 数组。文件将显著增大。\n仅当您的游戏 API 仅支持 LDtk 0.8.x 或更早版本时才使用此选项。"
+
+msgid ""
+"Loading successful, but the following level paths were fixed automatically.\n"
+"It seems like you renamed your LDtk project externally: this is defintely NOT recommended, and you should ALWAYS use the \"Save As\" or \"Rename\" buttons from the Project panel (P shortcut).\n"
+"Anyway, it seems like everything is fine. Hopefully. Don't do that again, please.\n"
+" ::paths::"
+msgstr ""
+"加载成功，但以下关卡路径已自动修复。\n"
+"您似乎在外部重命名了 LDtk 项目：我们强烈不建议这样做，您应始终使用项目面板（快捷键 P）中的"另存为"或"重命名"按钮。\n"
+"总之，目前看来一切正常。希望如此。请不要再这样做了。\n"
+" ::paths::"
+
+msgid "The identifier \"::id::\" isn't valid, or isn't unique."
+msgstr "标识符 \"::id::\" 无效或不唯一。"
+
+msgid ""
+"Tileset image \"::name::\" was reloaded and the new version was larger than the old one.\n"
+"Tiles coordinates were remapped, everything is ok :)"
+msgstr ""
+"图块集图片 \"::name::\" 已重新加载，新版本比旧版本大。\n"
+"图块坐标已重新映射，一切正常 :)"
+
+msgid ""
+"\"::name::\" image was modified but it was SMALLER than the old version.\n"
+"Luckily, the tileset had some PADDING, so I was able to use it to compensate the difference.\n"
+"So everything is ok, have a nice day ♥️"
+msgstr ""
+"\"::name::\" 图片已修改，但比旧版本更小。\n"
+"幸运的是，图块集有一些内边距，因此可以用来补偿差异。\n"
+"所以一切正常，祝您愉快 ♥️"
+
+msgid ""
+"\"::name::\" image was updated, but the new version is smaller than the previous one.\n"
+"Some tiles might have been lost in the process. It is recommended to check this carefully before saving this project!"
+msgstr ""
+"\"::name::\" 图片已更新，但新版本比之前的版本更小。\n"
+"某些图块可能在此过程中丢失。建议在保存项目之前仔细检查！"
+
+msgid "\"Ab\""
+msgstr "\"Ab\""
+
+msgid "\"Ab\\n\""
+msgstr "\"Ab\\n\""
+
+msgid "Application settings"
+msgstr "应用设置"
+
+msgid "A new update is available!"
+msgstr "有新的更新可用！"
+
+msgid "General"
+msgstr "常规"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "Select the display language for LDtk. A restart is required to apply the change."
+msgstr "选择 LDtk 的显示语言。需要重启应用以使更改生效。"
+
+msgid "Re-open last project"
+msgstr "重新打开上次的项目"
+
+msgid "Visuals"
+msgstr "视觉效果"
+
+msgid "General UI scale"
+msgstr "通用界面缩放"
+
+msgid "This setting will affect the whole User Interface size."
+msgstr "此设置将影响整个用户界面的大小。"
+
+msgid "Level UI scale"
+msgstr "关卡界面缩放"
+
+msgid "This setting will only affect the size of texts and icons in the EDITOR VIEW (including entities custom fields and level custom fields)."
+msgstr "此设置仅影响编辑器视图中文本和图标的大小（包括实体自定义字段和关卡自定义字段）。"
+
+msgid "Entity fields aspect"
+msgstr "实体字段外观"
+
+msgid "This option controls the visual aspect of custom entity fields in the editor."
+msgstr "此选项控制编辑器中自定义实体字段的视觉外观。"
+
+msgid "\"Nearby levels\" tiles rendering distance"
+msgstr ""相邻关卡"图块渲染距离"
+
+msgid "Single-layer mode intensity"
+msgstr "单图层模式强度"
+
+msgid "Start in fullscreen mode"
+msgstr "以全屏模式启动"
+
+msgid "Prefer color-blind colors"
+msgstr "使用色盲友好颜色"
+
+msgid "Enable this option to use color-blind friendly colors by default for newly created entities, enums or intGrid values."
+msgstr "启用此选项以在新创建的实体、枚举或整数网格值中默认使用色盲友好颜色。"
+
+msgid "Fade LDtk window when not focused"
+msgstr "失焦时淡化 LDtk 窗口"
+
+msgid "If enabled, the LDtk window will be grayed out when it is not focused."
+msgstr "启用后，当 LDtk 窗口未获得焦点时将变灰。"
+
+msgid "Controls"
+msgstr "控制"
+
+msgid "Mouse wheel speed"
+msgstr "鼠标滚轮速度"
+
+msgid "This setting affects the zoom in/out speed when using the mouse wheel."
+msgstr "此设置影响使用鼠标滚轮时的缩放速度。"
+
+msgid "World view with mouse wheel"
+msgstr "使用鼠标滚轮切换世界视图"
+
+msgid "Navigation keys layout"
+msgstr "导航键布局"
+
+msgid "Navigation keys are used to navigate through the palette of values in a layer. For example, in a Tiles layer, you can navigate through the different tiles using these keys."
+msgstr "导航键用于在图层中的值调色板中导航。例如，在图块图层中，您可以使用这些键浏览不同的图块。"
+
+msgid "Advanced options"
+msgstr "高级选项"
+
+msgid "Try to use best GPU"
+msgstr "尝试使用最佳 GPU"
+
+msgid "Auto update"
+msgstr "自动更新"
+
+msgid "Recommended"
+msgstr "推荐"
+
+msgid "Only supported on Windows."
+msgstr "仅支持 Windows 系统。"
+
+msgid "If enabled, ::app:: will automatically re-open your last project and select the last level you were in."
+msgstr "启用后，::app:: 将自动重新打开您上次的项目并选择您之前所在的关卡。"
+
+msgid "If enabled, the tiles from nearby levels will also be rendered, to help you when painting transitions between maps. Please note that this could have a significant impact on performances for large levels."
+msgstr "启用后，相邻关卡的图块也会被渲染，以帮助您绘制地图之间的过渡。请注意，对于大型关卡，这可能会对性能产生较大影响。"
+
+msgid "When the \"single-layer\" mode is enabled, this setting defines the intensity of the fading effect applied to other layers."
+msgstr "启用"单图层"模式后，此设置定义应用于其他图层的淡出效果强度。"
+
+msgid "Set default \"Full screen\" state when starting ::app::. You may also toggle fullscreen mode at any time using the F11 key."
+msgstr "设置启动 ::app:: 时的默认"全屏"状态。您也可以随时使用 F11 键切换全屏模式。"
+
+msgid "This setting allows to automatically switch to the World view when zooming out from a level. You can then zoom back in to any level to select it."
+msgstr "此设置允许在从关卡缩小时自动切换到世界视图。然后您可以重新放大任何关卡以选择它。"
+
+msgid "When enabled, ::app:: will always try to use the best GPU available on your system, resulting in better performances. This might use extra battery life."
+msgstr "启用后，::app:: 将始终尝试使用系统中最佳的 GPU，从而获得更好的性能。这可能会消耗更多电量。"
+
+msgid "When enabled, ::app:: will download and install new updates fully automatically. This is strongly RECOMMENDED as many updates contain important bug fixes and new features."
+msgstr "启用后，::app:: 将完全自动下载和安装新更新。强烈推荐此功能，因为许多更新包含重要的错误修复和新功能。"
+
+msgid "The LOG file is only useful when reporting bugs. You can attach it to an e-mail or when you create an issue on GitHub site. It doesn't contain any sensitive or personal information, except used file paths."
+msgstr "日志文件仅在报告错误时有用。您可以将其附加到电子邮件中或在 GitHub 上创建问题时使用。它不包含任何敏感或个人信息，除了使用的文件路径。"
+
+msgid "Install"
+msgstr "安装"
+
+msgid "Disabled"
+msgstr "禁用"
+
+msgid "pixels"
+msgstr "像素"
