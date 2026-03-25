@@ -10,7 +10,29 @@ class EditTilesetDefs extends ui.modal.Panel {
 	public function new(?selectedDef:data.def.TilesetDef) {
 		super();
 
-		loadTemplate( "editTilesetDefs", "defEditor editTilesetDefs" );
+		loadTemplate( "editTilesetDefs", "defEditor editTilesetDefs", {
+			projectTilesetsTitle: L.t._("Project tilesets"),
+			tilesetsHelpText: L.t._("Tilesets are large images in which you pick sub-parts to draw them in your levels. They can also be used as icons for some specific elements (like Enums)."),
+			sourceImageLabel: L.t._("Source image"),
+			sourceImageInfo: L.t._("This is the tileset \"atlas\" image which contains all the tiles organized in a grid layout. Supported file formats: Aseprite (recommended), PNG, GIF and JPEG."),
+			identifierLabel: L.t._("Identifier"),
+			tilesLayoutLabel: L.t._("Tiles layout"),
+			tilesLayoutInfo: L.t._("These values describe how tiles are arranged inside the source image. You can check the preview of the tile grid below. Tiles are listed as a grid, from left to right, top to bottom, and their index starts at ZERO."),
+			pxTilesSpacedBy: L.t._("px tiles, spaced by"),
+			pxAtlasPadding: L.t._("px, with an atlas padding of "),
+			tagsLabel: L.t._("Tags"),
+			tagsInfo: L.t._("Tags are used to freely organize your Enums."),
+			enumTileMarkingLabel: L.t._("Enum for tile marking"),
+			enumTileMarkingInfo: L.t._("By linking an Enum to this tileset, you will be able to mark tiles using values from this Enum. For example, you could mark tiles with following informations: - Collision informations (wall block, slope left/right, thin platform etc.) - Special material (water, lava etc.), - Footstep sound (metal, wood etc.)"),
+			embedDesc: L.t._("This tileset is using an embedded image from LDtk and cannot be modified. The tileset was added to your Project because an element (an Entity or an Enum) uses it."),
+			licensingLabel: L.t._("LICENSING"),
+			licensingColon: L.t._(": this image is"),
+			licensingOnly: L.t._("only"),
+			licensingUseText: L.t._("meant to be used inside LDtk"),
+			licensingNoRedist: L.t._("and cannot be redistributed in any way"),
+			licensingContact: L.t._("Please contact the author"),
+			licensingContactSuffix: L.t._("if you want to license this image for your own use in your game."),
+		} );
 		jList = jModalAndMask.find(".mainList ul");
 		jForm = jModalAndMask.find("dl.form");
 		linkToButton("button.editTilesets");
